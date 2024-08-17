@@ -1,7 +1,7 @@
 # DiningReview API - Frontend
 
 - This project contains the frontend part of the following Spring Boot project: [DininigReviewAPI](https://github.com/Branka19/DiningReviewAPI)
-- The project was done in React.js
+- The project was done in **React.js**
 
 ## Project Description
 
