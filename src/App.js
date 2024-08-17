@@ -73,6 +73,3 @@ function App() {
 }
 
 export default App;
-
-/*
-child routes for same page info? */

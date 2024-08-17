@@ -1,10 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-// import { useLocation } from "react-router-dom";
 
 function UserNavbar() {
-  //const location = useLocation();
-  //const userName = location.pathname.split("/")[2];
   const { displayName } = useParams();
 
   return (

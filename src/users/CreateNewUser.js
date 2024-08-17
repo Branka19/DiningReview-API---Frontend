@@ -38,7 +38,6 @@ function CreateNewUser() {
     e.preventDefault();
     await axios.post("http://localhost:8080/users/addNew", user);
     navigate("/");
-    //navigate(`http://localhost:8080/users/${user.username}`);
   };
 
   return (
@@ -220,55 +219,3 @@ function CreateNewUser() {
 }
 
 export default CreateNewUser;
-
-/*
-  od sada prvo obnova u:
-  ++ reminder
-  ++ react.dev 
-  ++ primeri apps
-  
-  (tako ujedno ucis - prvo crtez, zatim pseudokod pa onda pravi kod)
-
-  container = makes the form smaller on screen (not whole width)
-  offset - pomera tekst levo i desno u kontejneru
-  col - pomaze da se poveca i smanji border
-  aria - generalno mi ne treba jer je za screen reader
-  input + name => jer se u formularu salje name+value od atributa
-  */
-
-/* pozicioniranje label+input jedno pored drugog
-
-              <div className="row mb-3">
-              <label for="username" className="col-md-2 form-label mt-2">
-                Username:
-              </label>
-              <div className="col-sm-10">
-                <input
-                  type="username"
-                  className="col-md-2 form-control"
-                  id="username"
-                  aria-describedby="usernameHelp"
-                />
-            </div>
-            
-            
-            
-checkbox sa boolean:
-
-                <input
-                  type="checkbox"
-                  className="form-check-input"
-                  name="interestedInPeanutAllergies"
-                  value={interestedInPeanutAllergies}
-                  checked={interestedInPeanutAllergies}
-                  onChange={(e) => onInputChange(e)}
-                />
-                
-      const onInputChange = (e) => {
-    const target = e.target;
-    const value = target.type === "checkbox" ? target.checked : target.value;
-    const name = target.name;
-
-    setUser({ ...user, [name]: value });
-  };            
-                */

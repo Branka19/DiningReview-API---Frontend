@@ -1,4 +1,3 @@
-import { isContentEditable } from "@testing-library/user-event/dist/utils";
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 
@@ -45,8 +44,3 @@ function ViewUser() {
 }
 
 export default ViewUser;
-
-/*
-container-fluid: sets the container to the beginning of the page (left alignment) */
-
-//NEXT: authentication of the user! change NAV accordingly

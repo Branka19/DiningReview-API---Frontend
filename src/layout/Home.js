@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Restaurant from "../images/Restaurant.jpg";
 
 function Home() {
@@ -17,7 +16,6 @@ function Home() {
         </p>
       </div>
 
-      {/*zapisi kako se dele kolumne jer si se namucila (ima ih 12*/}
       <table>
         <tbody>
           <tr>

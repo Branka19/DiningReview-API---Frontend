@@ -13,10 +13,6 @@ function UserLogin() {
   const { displayName, password } = user;
 
   const onInputChange = (e) => {
-    /* if we have only 1 parameter:
-    const enteredName = e.target.value;
-    setUser({ displayName: enteredName });
-    */
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
