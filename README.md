@@ -11,6 +11,7 @@ ___
 ###### Work in Progress 
 - [ ] a registered user can add reviews for restaurants
 - [ ] the restaurants can be searched based on food allergies, location and overall score
+- [ ] user authentication should prevent unregistered users being able to see other pages/users
 
 > [!NOTE]
 > This project is still work in progress and was created for learning purposes.
